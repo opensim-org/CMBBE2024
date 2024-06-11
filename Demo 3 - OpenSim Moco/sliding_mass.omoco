@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40500">
+	<MocoStudy name="sliding_mass">
+		<!--The optimal control problem to solve.-->
+		<MocoProblem name="problem">
+			<!--List of 1 or more MocoPhases.-->
+			<MocoPhase name="phases">
+				<!--OpenSim Model to provide dynamics.-->
+				<ModelProcessor name="model">
+					<!--Base model to process.-->
+					<model>
+						<Model name="sliding_mass">
+							<!--List of components that this component owns and serializes.-->
+							<components>
+								<Body name="body">
+									<!--The geometry used to display the axes of this Frame.-->
+									<FrameGeometry name="frame_geometry">
+										<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+										<socket_frame>..</socket_frame>
+										<!--Scale factors in X, Y, Z directions respectively.-->
+										<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+									</FrameGeometry>
+									<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+									<attached_geometry>
+										<Sphere name="body_geom_1">
+											<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+											<socket_frame>..</socket_frame>
+											<!--Radius of sphere, defaults to 1.0-->
+											<radius>0.050000000000000003</radius>
+										</Sphere>
+									</attached_geometry>
+									<!--The mass of the body (kg)-->
+									<mass>2</mass>
+									<!--The location (Vec3) of the mass center in the body frame.-->
+									<mass_center>0 0 0</mass_center>
+									<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
+									<inertia>0 0 0 0 0 0</inertia>
+								</Body>
+								<SliderJoint name="slider">
+									<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
+									<socket_parent_frame>/ground</socket_parent_frame>
+									<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->
+									<socket_child_frame>/body</socket_child_frame>
+									<!--List containing the generalized coordinates (q's) that parameterize this joint.-->
+									<coordinates>
+										<Coordinate name="position">
+											<!--All properties of this object have their default values.-->
+										</Coordinate>
+									</coordinates>
+								</SliderJoint>
+								<CoordinateActuator name="actuator">
+									<!--Name of the generalized coordinate to which the actuator applies.-->
+									<coordinate>position</coordinate>
+									<!--The maximum generalized force produced by this actuator.-->
+									<optimal_force>1</optimal_force>
+								</CoordinateActuator>
+							</components>
+							<!--The model's ground reference frame.-->
+							<Ground name="ground">
+								<!--The geometry used to display the axes of this Frame.-->
+								<FrameGeometry name="frame_geometry">
+									<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+									<socket_frame>..</socket_frame>
+									<!--Scale factors in X, Y, Z directions respectively.-->
+									<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+								</FrameGeometry>
+							</Ground>
+							<!--Acceleration due to gravity, expressed in ground.-->
+							<gravity>0 0 0</gravity>
+							<!--List of joints that connect the bodies.-->
+							<JointSet name="jointset">
+								<objects />
+								<groups />
+							</JointSet>
+							<!--Controllers that provide the control inputs for Actuators.-->
+							<ControllerSet name="controllerset">
+								<objects />
+								<groups />
+							</ControllerSet>
+							<!--Forces in the model (includes Actuators).-->
+							<ForceSet name="forceset">
+								<objects />
+								<groups />
+							</ForceSet>
+						</Model>
+					</model>
+				</ModelProcessor>
+				<!--Bounds on initial value.-->
+				<MocoInitialBounds name="time_initial_bounds">
+					<!--1 value: required value. 2 values: lower, upper bounds on value.-->
+					<bounds>0</bounds>
+				</MocoInitialBounds>
+				<!--Bounds on final value.-->
+				<MocoFinalBounds name="time_final_bounds">
+					<!--1 value: required value. 2 values: lower, upper bounds on value.-->
+					<bounds>0 5</bounds>
+				</MocoFinalBounds>
+				<!--The state variables' bounds.-->
+				<state_infos>
+					<MocoVariableInfo name="/slider/position/value">
+						<!--1 value: required value over all time. 2 values: lower, upper bounds on value over all time.-->
+						<bounds>-5 5</bounds>
+						<!--1 value: required initial value. 2 values: lower, upper bounds on initial value.-->
+						<initial_bounds>0</initial_bounds>
+						<!--1 value: required final value. 2 values: lower, upper bounds on final value.-->
+						<final_bounds>1</final_bounds>
+					</MocoVariableInfo>
+					<MocoVariableInfo name="/slider/position/speed">
+						<!--1 value: required value over all time. 2 values: lower, upper bounds on value over all time.-->
+						<bounds>-50 50</bounds>
+						<!--1 value: required initial value. 2 values: lower, upper bounds on initial value.-->
+						<initial_bounds>0</initial_bounds>
+						<!--1 value: required final value. 2 values: lower, upper bounds on final value.-->
+						<final_bounds>0</final_bounds>
+					</MocoVariableInfo>
+				</state_infos>
+				<!--The control variables' bounds.-->
+				<control_infos>
+					<MocoVariableInfo name="/actuator">
+						<!--1 value: required value over all time. 2 values: lower, upper bounds on value over all time.-->
+						<bounds>-50 50</bounds>
+						<!--1 value: required initial value. 2 values: lower, upper bounds on initial value.-->
+						<initial_bounds></initial_bounds>
+						<!--1 value: required final value. 2 values: lower, upper bounds on final value.-->
+						<final_bounds></final_bounds>
+					</MocoVariableInfo>
+				</control_infos>
+				<!--Integral/endpoint quantities to minimize or constrain.-->
+				<goals>
+					<MocoFinalTimeGoal name="goal">
+						<!--All properties of this object have their default values.-->
+					</MocoFinalTimeGoal>
+				</goals>
+			</MocoPhase>
+		</MocoProblem>
+		<!--The optimal control algorithm for solving the problem.-->
+		<MocoCasADiSolver name="solver">
+			<!--The number of uniformly-sized mesh intervals for the problem (default: 100). If a non-uniform mesh exists, the non-uniform mesh is used instead.-->
+			<num_mesh_intervals>100</num_mesh_intervals>
+		</MocoCasADiSolver>
+	</MocoStudy>
+</OpenSimDocument>

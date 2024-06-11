@@ -1,0 +1,472 @@
+[2024-06-10 15:56:30.840] [info] ========================================================================
+[2024-06-10 15:56:30.840] [info] MocoCasADiSolver starting.
+[2024-06-10 15:56:30.840] [info] Mon Jun 10 15:56:30 2024
+[2024-06-10 15:56:30.840] [info] ------------------------------------------------------------------------
+[2024-06-10 15:56:30.840] [cout] [info] Costs: (total: 1)
+[2024-06-10 15:56:30.840] [cout] [info]   goal. MocoFinalTimeGoal, enabled: true, mode: cost, weight: 1.0
+[2024-06-10 15:56:30.840] [cout] [info] Endpoint constraints: none
+[2024-06-10 15:56:30.840] [cout] [info] Kinematic constraints: none
+[2024-06-10 15:56:30.840] [cout] [info] Path constraints: none
+[2024-06-10 15:56:30.840] [cout] [info] States: (total: 2)
+[2024-06-10 15:56:30.840] [cout] [info]   /slider/position/value. bounds: [-5, 5] initial: 0 final: 1
+[2024-06-10 15:56:30.840] [cout] [info]   /slider/position/speed. bounds: [-50, 50] initial: 0 final: 0
+[2024-06-10 15:56:30.840] [cout] [info] Controls: (total: 1)
+[2024-06-10 15:56:30.840] [cout] [info]   /actuator. bounds: [-50, 50]
+[2024-06-10 15:56:30.840] [cout] [info] Parameters: none
+[2024-06-10 15:56:30.903] [info] Number of threads: 24
+[2024-06-10 15:56:31.821] [info] Set log level to Info.
+[2024-06-10 15:56:31.822] [info] ------------------------------------------------------------------------
+[2024-06-10 15:56:31.822] [info] Elapsed real time: 982 millisecond(s).
+[2024-06-10 15:56:31.822] [info] Mon Jun 10 15:56:31 2024
+[2024-06-10 15:56:31.822] [info] MocoCasADiSolver succeeded!
+[2024-06-10 15:56:31.822] [info] ========================================================================
+[2024-06-10 15:56:46.417] [info] Updating Model file from 40000 to latest format...
+[2024-06-10 15:56:46.422] [info] Loaded model squatToStand from file squatToStand_3dof9musc.osim
+[2024-06-11 10:47:01.699] [info] 
+[2024-06-11 10:47:01.699] [info] ====================
+[2024-06-11 10:47:01.699] [info] PolynomialPathFitter
+[2024-06-11 10:47:01.699] [info] ====================
+[2024-06-11 10:47:01.699] [info] 
+[2024-06-11 10:47:01.699] [info] Step 1/9: Load the model and coordinate values table.
+[2024-06-11 10:47:01.699] [info] -----------------------------------------------------
+[2024-06-11 10:47:01.709] [info] Coordinate values table: 23 columns, 3946 time points
+[2024-06-11 10:47:01.711] [info] 
+[2024-06-11 10:47:01.711] [info] Step 2/9: Set the coordinate bounds.
+[2024-06-11 10:47:01.711] [info] ------------------------------------
+[2024-06-11 10:47:01.711] [info] Global bounds: [-50.0, 50.0] degrees.
+[2024-06-11 10:47:01.711] [info] 
+[2024-06-11 10:47:01.711] [info] Step 3/9: Verify the user-defined settings.
+[2024-06-11 10:47:01.711] [info] -------------------------------------------
+[2024-06-11 10:47:01.711] [info] Number of parallel threads = 22
+[2024-06-11 10:47:01.711] [info] Number of samples per frame = 25
+[2024-06-11 10:47:01.711] [info] Latin hypercube algorithm = 'random'
+[2024-06-11 10:47:01.711] [info] Moment arm threshold = 1.0e-03 meters
+[2024-06-11 10:47:01.711] [info] Minimum polynomial order = 2
+[2024-06-11 10:47:01.711] [info] Maximum polynomial order = 5
+[2024-06-11 10:47:01.711] [info] Path length fitting tolerance = 1.0e-03 meters
+[2024-06-11 10:47:01.711] [info] Moment arm fitting tolerance = 1.0e-03 meters
+[2024-06-11 10:47:01.711] [info] 
+[2024-06-11 10:47:01.711] [info] Step 4/9: Sample coordinate values around the provided trajectory.
+[2024-06-11 10:47:01.711] [info] ------------------------------------------------------------------
+[2024-06-11 10:47:15.558] [info] Set log level to Info.
+[2024-06-11 10:49:15.109] [info] 
+[2024-06-11 10:49:15.109] [info] ====================
+[2024-06-11 10:49:15.109] [info] PolynomialPathFitter
+[2024-06-11 10:49:15.109] [info] ====================
+[2024-06-11 10:49:15.109] [info] 
+[2024-06-11 10:49:15.109] [info] Step 1/9: Load the model and coordinate values table.
+[2024-06-11 10:49:15.109] [info] -----------------------------------------------------
+[2024-06-11 10:49:15.118] [info] Coordinate values table: 23 columns, 395 time points
+[2024-06-11 10:49:15.118] [info] 
+[2024-06-11 10:49:15.118] [info] Step 2/9: Set the coordinate bounds.
+[2024-06-11 10:49:15.118] [info] ------------------------------------
+[2024-06-11 10:49:15.118] [info] Global bounds: [-50.0, 50.0] degrees.
+[2024-06-11 10:49:15.118] [info] 
+[2024-06-11 10:49:15.118] [info] Step 3/9: Verify the user-defined settings.
+[2024-06-11 10:49:15.118] [info] -------------------------------------------
+[2024-06-11 10:49:15.118] [info] Number of parallel threads = 22
+[2024-06-11 10:49:15.118] [info] Number of samples per frame = 25
+[2024-06-11 10:49:15.118] [info] Latin hypercube algorithm = 'random'
+[2024-06-11 10:49:15.118] [info] Moment arm threshold = 1.0e-03 meters
+[2024-06-11 10:49:15.118] [info] Minimum polynomial order = 2
+[2024-06-11 10:49:15.118] [info] Maximum polynomial order = 5
+[2024-06-11 10:49:15.118] [info] Path length fitting tolerance = 1.0e-03 meters
+[2024-06-11 10:49:15.118] [info] Moment arm fitting tolerance = 1.0e-03 meters
+[2024-06-11 10:49:15.118] [info] 
+[2024-06-11 10:49:15.118] [info] Step 4/9: Sample coordinate values around the provided trajectory.
+[2024-06-11 10:49:15.118] [info] ------------------------------------------------------------------
+[2024-06-11 10:49:16.668] [info] Set log level to Info.
+[2024-06-11 10:49:38.984] [info] 
+[2024-06-11 10:49:38.984] [info] ====================
+[2024-06-11 10:49:38.984] [info] PolynomialPathFitter
+[2024-06-11 10:49:38.984] [info] ====================
+[2024-06-11 10:49:38.984] [info] 
+[2024-06-11 10:49:38.984] [info] Step 1/9: Load the model and coordinate values table.
+[2024-06-11 10:49:38.984] [info] -----------------------------------------------------
+[2024-06-11 10:49:38.995] [info] Coordinate values table: 23 columns, 79 time points
+[2024-06-11 10:49:38.996] [info] 
+[2024-06-11 10:49:38.996] [info] Step 2/9: Set the coordinate bounds.
+[2024-06-11 10:49:38.996] [info] ------------------------------------
+[2024-06-11 10:49:38.996] [info] Global bounds: [-50.0, 50.0] degrees.
+[2024-06-11 10:49:38.996] [info] 
+[2024-06-11 10:49:38.996] [info] Step 3/9: Verify the user-defined settings.
+[2024-06-11 10:49:38.996] [info] -------------------------------------------
+[2024-06-11 10:49:38.996] [info] Number of parallel threads = 22
+[2024-06-11 10:49:38.996] [info] Number of samples per frame = 15
+[2024-06-11 10:49:38.996] [info] Latin hypercube algorithm = 'random'
+[2024-06-11 10:49:38.996] [info] Moment arm threshold = 1.0e-03 meters
+[2024-06-11 10:49:38.996] [info] Minimum polynomial order = 2
+[2024-06-11 10:49:38.996] [info] Maximum polynomial order = 5
+[2024-06-11 10:49:38.996] [info] Path length fitting tolerance = 1.0e-03 meters
+[2024-06-11 10:49:38.996] [info] Moment arm fitting tolerance = 1.0e-03 meters
+[2024-06-11 10:49:38.996] [info] 
+[2024-06-11 10:49:38.996] [info] Step 4/9: Sample coordinate values around the provided trajectory.
+[2024-06-11 10:49:38.996] [info] ------------------------------------------------------------------
+[2024-06-11 10:49:39.226] [info] Set log level to Info.
+[2024-06-11 11:04:39.288] [info] 
+[2024-06-11 11:04:39.288] [info] ====================
+[2024-06-11 11:04:39.288] [info] PolynomialPathFitter
+[2024-06-11 11:04:39.288] [info] ====================
+[2024-06-11 11:04:39.288] [info] 
+[2024-06-11 11:04:39.288] [info] Step 1/9: Load the model and coordinate values table.
+[2024-06-11 11:04:39.288] [info] -----------------------------------------------------
+[2024-06-11 11:04:39.295] [info] Coordinate values table: 23 columns, 16 time points
+[2024-06-11 11:04:39.295] [info] 
+[2024-06-11 11:04:39.295] [info] Step 2/9: Set the coordinate bounds.
+[2024-06-11 11:04:39.295] [info] ------------------------------------
+[2024-06-11 11:04:39.295] [info] Global bounds: [-50.0, 50.0] degrees.
+[2024-06-11 11:04:39.295] [info] 
+[2024-06-11 11:04:39.295] [info] Step 3/9: Verify the user-defined settings.
+[2024-06-11 11:04:39.295] [info] -------------------------------------------
+[2024-06-11 11:04:39.295] [info] Number of parallel threads = 22
+[2024-06-11 11:04:39.295] [info] Number of samples per frame = 15
+[2024-06-11 11:04:39.295] [info] Latin hypercube algorithm = 'random'
+[2024-06-11 11:04:39.295] [info] Moment arm threshold = 1.0e-03 meters
+[2024-06-11 11:04:39.295] [info] Minimum polynomial order = 2
+[2024-06-11 11:04:39.295] [info] Maximum polynomial order = 5
+[2024-06-11 11:04:39.295] [info] Path length fitting tolerance = 1.0e-03 meters
+[2024-06-11 11:04:39.296] [info] Moment arm fitting tolerance = 1.0e-03 meters
+[2024-06-11 11:04:39.296] [info] 
+[2024-06-11 11:04:39.296] [info] Step 4/9: Sample coordinate values around the provided trajectory.
+[2024-06-11 11:04:39.296] [info] ------------------------------------------------------------------
+[2024-06-11 11:04:39.484] [info] Set log level to Info.
+[2024-06-11 11:04:39.485] [info] Total number of samples = 256
+[2024-06-11 11:04:39.485] [warning] The number of samples is less than 500. This may result in poorly fit paths. Consider increasing the number of samples per frame or the number of frames in the coordinate values table.
+[2024-06-11 11:04:39.485] [info] 
+[2024-06-11 11:04:39.485] [info] Step 5/9: Compute path lengths and moment arms.
+[2024-06-11 11:04:39.485] [info] -----------------------------------------------
+[2024-06-11 11:04:39.485] [info] Computing path lengths and moment arms for the original coordinate data...
+[2024-06-11 11:05:20.390] [info] ========================================================================
+[2024-06-11 11:05:20.390] [info] MocoCasADiSolver starting.
+[2024-06-11 11:05:20.390] [info] Tue Jun 11 11:05:20 2024
+[2024-06-11 11:05:20.390] [info] ------------------------------------------------------------------------
+[2024-06-11 11:05:20.390] [cout] [info] Costs: (total: 1)
+[2024-06-11 11:05:20.391] [cout] [info]   goal. MocoFinalTimeGoal, enabled: true, mode: cost, weight: 1.0
+[2024-06-11 11:05:20.391] [cout] [info] Endpoint constraints: none
+[2024-06-11 11:05:20.391] [cout] [info] Kinematic constraints: none
+[2024-06-11 11:05:20.391] [cout] [info] Path constraints: none
+[2024-06-11 11:05:20.391] [cout] [info] States: (total: 2)
+[2024-06-11 11:05:20.391] [cout] [info]   /slider/position/value. bounds: [-5, 5] initial: 0 final: 1
+[2024-06-11 11:05:20.391] [cout] [info]   /slider/position/speed. bounds: [-50, 50] initial: 0 final: 0
+[2024-06-11 11:05:20.391] [cout] [info] Controls: (total: 1)
+[2024-06-11 11:05:20.391] [cout] [info]   /actuator. bounds: [-50, 50]
+[2024-06-11 11:05:20.391] [cout] [info] Parameters: none
+[2024-06-11 11:05:20.457] [info] Number of threads: 24
+[2024-06-11 11:05:21.481] [info] Set log level to Info.
+[2024-06-11 11:05:21.481] [info] ------------------------------------------------------------------------
+[2024-06-11 11:05:21.481] [info] Elapsed real time: 1 second(s).
+[2024-06-11 11:05:21.481] [info] Tue Jun 11 11:05:21 2024
+[2024-06-11 11:05:21.481] [info] MocoCasADiSolver succeeded!
+[2024-06-11 11:05:21.481] [info] ========================================================================
+[2024-06-11 11:05:25.866] [info] Updating Model file from 40000 to latest format...
+[2024-06-11 11:05:25.870] [info] Loaded model squatToStand from file squatToStand_3dof9musc.osim
+[2024-06-11 11:06:00.581] [info] 
+[2024-06-11 11:06:00.581] [info] ====================
+[2024-06-11 11:06:00.581] [info] PolynomialPathFitter
+[2024-06-11 11:06:00.581] [info] ====================
+[2024-06-11 11:06:00.581] [info] 
+[2024-06-11 11:06:00.581] [info] Step 1/9: Load the model and coordinate values table.
+[2024-06-11 11:06:00.581] [info] -----------------------------------------------------
+[2024-06-11 11:06:00.590] [info] Coordinate values table: 23 columns, 790 time points
+[2024-06-11 11:06:00.591] [info] 
+[2024-06-11 11:06:00.591] [info] Step 2/9: Set the coordinate bounds.
+[2024-06-11 11:06:00.591] [info] ------------------------------------
+[2024-06-11 11:06:00.591] [info] Global bounds: [-50.0, 50.0] degrees.
+[2024-06-11 11:06:00.591] [info] 
+[2024-06-11 11:06:00.591] [info] Step 3/9: Verify the user-defined settings.
+[2024-06-11 11:06:00.591] [info] -------------------------------------------
+[2024-06-11 11:06:00.591] [info] Number of parallel threads = 22
+[2024-06-11 11:06:00.591] [info] Number of samples per frame = 15
+[2024-06-11 11:06:00.591] [info] Latin hypercube algorithm = 'random'
+[2024-06-11 11:06:00.591] [info] Moment arm threshold = 1.0e-03 meters
+[2024-06-11 11:06:00.591] [info] Minimum polynomial order = 2
+[2024-06-11 11:06:00.591] [info] Maximum polynomial order = 5
+[2024-06-11 11:06:00.591] [info] Path length fitting tolerance = 1.0e-03 meters
+[2024-06-11 11:06:00.591] [info] Moment arm fitting tolerance = 1.0e-03 meters
+[2024-06-11 11:06:00.591] [info] 
+[2024-06-11 11:06:00.591] [info] Step 4/9: Sample coordinate values around the provided trajectory.
+[2024-06-11 11:06:00.591] [info] ------------------------------------------------------------------
+[2024-06-11 11:06:01.855] [info] Set log level to Info.
+[2024-06-11 11:06:01.909] [info] Total number of samples = 12640
+[2024-06-11 11:06:01.909] [info] 
+[2024-06-11 11:06:01.909] [info] Step 5/9: Compute path lengths and moment arms.
+[2024-06-11 11:06:01.909] [info] -----------------------------------------------
+[2024-06-11 11:06:01.909] [info] Computing path lengths and moment arms for the original coordinate data...
+[2024-06-11 11:06:02.042] [info] Thread  1/22: computing values for times 0.00-170.00 seconds...
+[2024-06-11 11:06:02.045] [info] Thread  2/22: computing values for times 175.00-345.00 seconds...
+[2024-06-11 11:06:02.049] [info] Thread  3/22: computing values for times 350.00-520.00 seconds...
+[2024-06-11 11:06:02.054] [info] Thread  4/22: computing values for times 525.00-695.00 seconds...
+[2024-06-11 11:06:02.059] [info] Thread  5/22: computing values for times 700.00-870.00 seconds...
+[2024-06-11 11:06:02.062] [info] Thread  6/22: computing values for times 875.00-1045.00 seconds...
+[2024-06-11 11:06:02.069] [info] Thread  7/22: computing values for times 1050.00-1220.00 seconds...
+[2024-06-11 11:06:02.074] [info] Thread  8/22: computing values for times 1225.00-1395.00 seconds...
+[2024-06-11 11:06:02.076] [info] Thread  9/22: computing values for times 1400.00-1570.00 seconds...
+[2024-06-11 11:06:02.083] [info] Thread 10/22: computing values for times 1575.00-1745.00 seconds...
+[2024-06-11 11:06:02.087] [info] Thread 11/22: computing values for times 1750.00-1920.00 seconds...
+[2024-06-11 11:06:02.089] [info] Thread 12/22: computing values for times 1925.00-2095.00 seconds...
+[2024-06-11 11:06:02.093] [info] Thread 13/22: computing values for times 2100.00-2270.00 seconds...
+[2024-06-11 11:06:02.099] [info] Thread 14/22: computing values for times 2275.00-2445.00 seconds...
+[2024-06-11 11:06:02.103] [info] Thread 15/22: computing values for times 2450.00-2620.00 seconds...
+[2024-06-11 11:06:02.107] [info] Thread 16/22: computing values for times 2625.00-2795.00 seconds...
+[2024-06-11 11:06:02.114] [info] Thread 17/22: computing values for times 2800.00-2970.00 seconds...
+[2024-06-11 11:06:02.120] [info] Thread 18/22: computing values for times 2975.00-3145.00 seconds...
+[2024-06-11 11:06:02.121] [info] Thread 19/22: computing values for times 3150.00-3320.00 seconds...
+[2024-06-11 11:06:02.127] [info] Thread 20/22: computing values for times 3325.00-3495.00 seconds...
+[2024-06-11 11:06:02.133] [info] Thread 21/22: computing values for times 3500.00-3670.00 seconds...
+[2024-06-11 11:06:02.137] [info] Thread 22/22: computing values for times 3675.00-3945.00 seconds...
+[2024-06-11 11:06:02.294] [info] 
+[2024-06-11 11:06:02.294] [info] Computing path lengths and moment arms for the sampled coordinate data...
+[2024-06-11 11:06:04.324] [info] Thread  1/22: computing values for times 0.00-179.06 seconds...
+[2024-06-11 11:06:04.332] [info] Thread  2/22: computing values for times 179.38-358.44 seconds...
+[2024-06-11 11:06:04.338] [info] Thread  3/22: computing values for times 358.75-537.81 seconds...
+[2024-06-11 11:06:04.345] [info] Thread  4/22: computing values for times 538.12-717.19 seconds...
+[2024-06-11 11:06:04.352] [info] Thread  5/22: computing values for times 717.50-896.56 seconds...
+[2024-06-11 11:06:04.357] [info] Thread  6/22: computing values for times 896.88-1075.94 seconds...
+[2024-06-11 11:06:04.363] [info] Thread  7/22: computing values for times 1076.25-1255.31 seconds...
+[2024-06-11 11:06:04.368] [info] Thread  8/22: computing values for times 1255.62-1434.69 seconds...
+[2024-06-11 11:06:04.374] [info] Thread  9/22: computing values for times 1435.00-1614.06 seconds...
+[2024-06-11 11:06:04.381] [info] Thread 10/22: computing values for times 1614.38-1793.44 seconds...
+[2024-06-11 11:06:04.389] [info] Thread 11/22: computing values for times 1793.75-1972.81 seconds...
+[2024-06-11 11:06:04.397] [info] Thread 12/22: computing values for times 1973.12-2152.19 seconds...
+[2024-06-11 11:06:04.403] [info] Thread 13/22: computing values for times 2152.50-2331.56 seconds...
+[2024-06-11 11:06:04.414] [info] Thread 14/22: computing values for times 2331.88-2510.94 seconds...
+[2024-06-11 11:06:04.421] [info] Thread 15/22: computing values for times 2511.25-2690.31 seconds...
+[2024-06-11 11:06:04.427] [info] Thread 16/22: computing values for times 2690.62-2869.69 seconds...
+[2024-06-11 11:06:04.440] [info] Thread 17/22: computing values for times 2870.00-3049.06 seconds...
+[2024-06-11 11:06:04.467] [info] Thread 18/22: computing values for times 3049.38-3228.44 seconds...
+[2024-06-11 11:06:04.478] [info] Thread 19/22: computing values for times 3228.75-3407.81 seconds...
+[2024-06-11 11:06:04.500] [info] Thread 20/22: computing values for times 3408.12-3587.19 seconds...
+[2024-06-11 11:06:04.519] [info] Thread 21/22: computing values for times 3587.50-3766.56 seconds...
+[2024-06-11 11:06:04.525] [info] Thread 22/22: computing values for times 3766.88-3949.69 seconds...
+[2024-06-11 11:06:11.938] [info] 
+[2024-06-11 11:06:11.938] [info] Step 6/9: Filter the sampled path data.
+[2024-06-11 11:06:11.938] [info] ---------------------------------------
+[2024-06-11 11:06:11.962] [info] Removing 10076 samples (79.7% of total) that are larger than 5.0 standard deviations from nominal values...
+[2024-06-11 11:06:43.948] [info] 
+[2024-06-11 11:06:43.948] [info] Step 7/9: Fit the polynomial coefficients.
+[2024-06-11 11:06:43.948] [info] ------------------------------------------
+[2024-06-11 11:06:43.948] [info] Thread 22/22: fitting coefficients for force '/forceset/bifemsh_r'...
+[2024-06-11 11:06:43.965] [info] Thread 22/22: fitting coefficients for force '/forceset/med_gas_r'...
+[2024-06-11 11:06:44.102] [info] Thread 22/22: fitting coefficients for force '/forceset/glut_max2_r'...
+[2024-06-11 11:06:44.135] [info] Thread 22/22: fitting coefficients for force '/forceset/psoas_r'...
+[2024-06-11 11:06:44.168] [info] Thread 22/22: fitting coefficients for force '/forceset/rect_fem_r'...
+[2024-06-11 11:06:44.314] [info] Thread 22/22: fitting coefficients for force '/forceset/semimem_r'...
+[2024-06-11 11:06:44.449] [info] Thread 22/22: fitting coefficients for force '/forceset/soleus_r'...
+[2024-06-11 11:06:44.474] [info] Thread 22/22: fitting coefficients for force '/forceset/tib_ant_r'...
+[2024-06-11 11:06:44.500] [info] Thread 22/22: fitting coefficients for force '/forceset/vas_int_r'...
+[2024-06-11 11:06:44.526] [info] 
+[2024-06-11 11:06:44.526] [info] Step 8/9: Evaluate the fit.
+[2024-06-11 11:06:44.526] [info] ---------------------------
+[2024-06-11 11:06:44.526] [info] 
+[2024-06-11 11:06:44.526] [info] --------------------------------------------------------------------
+[2024-06-11 11:06:44.526] [info]         path          |                polynomial fit               
+[2024-06-11 11:06:44.526] [info] --------------------------------------------------------------------
+[2024-06-11 11:06:44.526] [info] /forceset/bifemsh_r   | order = 4, dimension = 1, coefficients = 5
+[2024-06-11 11:06:44.526] [info] /forceset/med_gas_r   | order = 5, dimension = 2, coefficients = 21
+[2024-06-11 11:06:44.526] [info] /forceset/glut_max2_r | order = 5, dimension = 1, coefficients = 6
+[2024-06-11 11:06:44.526] [info] /forceset/psoas_r     | order = 5, dimension = 1, coefficients = 6
+[2024-06-11 11:06:44.526] [info] /forceset/rect_fem_r  | order = 5, dimension = 2, coefficients = 21
+[2024-06-11 11:06:44.526] [info] /forceset/semimem_r   | order = 5, dimension = 2, coefficients = 21
+[2024-06-11 11:06:44.527] [info] /forceset/soleus_r    | order = 5, dimension = 1, coefficients = 6
+[2024-06-11 11:06:44.527] [info] /forceset/tib_ant_r   | order = 5, dimension = 1, coefficients = 6
+[2024-06-11 11:06:44.527] [info] /forceset/vas_int_r   | order = 5, dimension = 1, coefficients = 6
+[2024-06-11 11:06:44.527] [info] --------------------------------------------------------------------
+[2024-06-11 11:06:44.527] [info] 
+[2024-06-11 11:06:44.527] [info] Computing path lengths and moment arms from the fitted paths...
+[2024-06-11 11:06:44.640] [info] Thread  1/22: computing values for times 0.00-170.00 seconds...
+[2024-06-11 11:06:44.643] [info] Thread  2/22: computing values for times 175.00-345.00 seconds...
+[2024-06-11 11:06:44.644] [info] Thread  3/22: computing values for times 350.00-520.00 seconds...
+[2024-06-11 11:06:44.645] [info] Thread  4/22: computing values for times 525.00-695.00 seconds...
+[2024-06-11 11:06:44.649] [info] Thread  5/22: computing values for times 700.00-870.00 seconds...
+[2024-06-11 11:06:44.651] [info] Thread  6/22: computing values for times 875.00-1045.00 seconds...
+[2024-06-11 11:06:44.652] [info] Thread  7/22: computing values for times 1050.00-1220.00 seconds...
+[2024-06-11 11:06:44.655] [info] Thread  8/22: computing values for times 1225.00-1395.00 seconds...
+[2024-06-11 11:06:44.658] [info] Thread  9/22: computing values for times 1400.00-1570.00 seconds...
+[2024-06-11 11:06:44.662] [info] Thread 10/22: computing values for times 1575.00-1745.00 seconds...
+[2024-06-11 11:06:44.665] [info] Thread 11/22: computing values for times 1750.00-1920.00 seconds...
+[2024-06-11 11:06:44.668] [info] Thread 12/22: computing values for times 1925.00-2095.00 seconds...
+[2024-06-11 11:06:44.671] [info] Thread 13/22: computing values for times 2100.00-2270.00 seconds...
+[2024-06-11 11:06:44.673] [info] Thread 14/22: computing values for times 2275.00-2445.00 seconds...
+[2024-06-11 11:06:44.676] [info] Thread 15/22: computing values for times 2450.00-2620.00 seconds...
+[2024-06-11 11:06:44.678] [info] Thread 16/22: computing values for times 2625.00-2795.00 seconds...
+[2024-06-11 11:06:44.681] [info] Thread 17/22: computing values for times 2800.00-2970.00 seconds...
+[2024-06-11 11:06:44.683] [info] Thread 18/22: computing values for times 2975.00-3145.00 seconds...
+[2024-06-11 11:06:44.684] [info] Thread 19/22: computing values for times 3150.00-3320.00 seconds...
+[2024-06-11 11:06:44.687] [info] Thread 20/22: computing values for times 3325.00-3495.00 seconds...
+[2024-06-11 11:06:44.690] [info] Thread 21/22: computing values for times 3500.00-3670.00 seconds...
+[2024-06-11 11:06:44.692] [info] Thread 22/22: computing values for times 3675.00-3945.00 seconds...
+[2024-06-11 11:06:45.094] [info] Thread  1/22: computing values for times 0.00-35.94 seconds...
+[2024-06-11 11:06:45.098] [info] Thread  2/22: computing values for times 36.25-73.44 seconds...
+[2024-06-11 11:06:45.102] [info] Thread  3/22: computing values for times 73.75-130.94 seconds...
+[2024-06-11 11:06:45.105] [info] Thread  4/22: computing values for times 135.00-625.00 seconds...
+[2024-06-11 11:06:45.108] [info] Thread  5/22: computing values for times 630.00-1205.00 seconds...
+[2024-06-11 11:06:45.110] [info] Thread  6/22: computing values for times 1210.00-1785.00 seconds...
+[2024-06-11 11:06:45.113] [info] Thread  7/22: computing values for times 1790.00-2346.25 seconds...
+[2024-06-11 11:06:45.115] [info] Thread  8/22: computing values for times 2346.56-2382.81 seconds...
+[2024-06-11 11:06:45.121] [info] Thread 10/22: computing values for times 2420.31-2458.44 seconds...
+[2024-06-11 11:06:45.122] [info] Thread  9/22: computing values for times 2383.12-2420.00 seconds...
+[2024-06-11 11:06:45.124] [info] Thread 11/22: computing values for times 2458.75-2495.94 seconds...
+[2024-06-11 11:06:45.133] [info] Thread 12/22: computing values for times 2496.25-2534.06 seconds...
+[2024-06-11 11:06:45.133] [info] Thread 13/22: computing values for times 2534.38-2572.81 seconds...
+[2024-06-11 11:06:45.136] [info] Thread 14/22: computing values for times 2573.12-2612.19 seconds...
+[2024-06-11 11:06:45.141] [info] Thread 15/22: computing values for times 2612.50-2676.56 seconds...
+[2024-06-11 11:06:45.142] [info] Thread 16/22: computing values for times 2676.88-2713.44 seconds...
+[2024-06-11 11:06:45.145] [info] Thread 17/22: computing values for times 2713.75-2751.25 seconds...
+[2024-06-11 11:06:45.148] [info] Thread 18/22: computing values for times 2751.56-2788.44 seconds...
+[2024-06-11 11:06:45.151] [info] Thread 19/22: computing values for times 2788.75-2824.69 seconds...
+[2024-06-11 11:06:45.156] [info] Thread 20/22: computing values for times 2825.00-2860.94 seconds...
+[2024-06-11 11:06:45.159] [info] Thread 21/22: computing values for times 2861.25-3305.00 seconds...
+[2024-06-11 11:06:45.163] [info] Thread 22/22: computing values for times 3310.00-3945.00 seconds...
+[2024-06-11 11:06:45.403] [info] 
+[2024-06-11 11:06:45.403] [info] Summary of path length and moment arm RMS errors
+[2024-06-11 11:06:45.403] [info] ------------------------------------------------
+[2024-06-11 11:06:45.403] [info] '/forceset/bifemsh_r' path errors:
+[2024-06-11 11:06:45.404] [info]  - path length RMSE: 0.019 cm
+[2024-06-11 11:06:45.404] [info]  - 'knee_angle_r' moment arm RMSE: 0.071 cm
+[2024-06-11 11:06:45.404] [info] 
+[2024-06-11 11:06:45.404] [info] '/forceset/med_gas_r' path errors:
+[2024-06-11 11:06:45.404] [info]  - path length RMSE: 2.813 cm
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [warning] The path length RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.404] [warning] 
+[2024-06-11 11:06:45.404] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.404] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.404] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.404] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.404] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [info]  - 'knee_angle_r' moment arm RMSE: 1.029 cm
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [warning] The 'knee_angle_r' moment arm RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.404] [warning] 
+[2024-06-11 11:06:45.404] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.404] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.404] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.404] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.404] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [info]  - 'ankle_angle_r' moment arm RMSE: 1.386 cm
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [warning] The 'ankle_angle_r' moment arm RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.404] [warning] 
+[2024-06-11 11:06:45.404] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.404] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.404] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.404] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.404] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [info] 
+[2024-06-11 11:06:45.404] [info] '/forceset/glut_max2_r' path errors:
+[2024-06-11 11:06:45.404] [info]  - path length RMSE: 1.113 cm
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [warning] The path length RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.404] [warning] 
+[2024-06-11 11:06:45.404] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.404] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.404] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.404] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.404] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [info]  - 'hip_flexion_r' moment arm RMSE: 2.427 cm
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [warning] The 'hip_flexion_r' moment arm RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.404] [warning] 
+[2024-06-11 11:06:45.404] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.404] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.404] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.404] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.404] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [info] 
+[2024-06-11 11:06:45.404] [info] '/forceset/psoas_r' path errors:
+[2024-06-11 11:06:45.404] [info]  - path length RMSE: 0.951 cm
+[2024-06-11 11:06:45.404] [info]  - 'hip_flexion_r' moment arm RMSE: 1.253 cm
+[2024-06-11 11:06:45.404] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.404] [warning] The 'hip_flexion_r' moment arm RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.404] [warning] 
+[2024-06-11 11:06:45.404] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.405] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.405] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.405] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.405] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.405] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.405] [info] 
+[2024-06-11 11:06:45.405] [info] '/forceset/rect_fem_r' path errors:
+[2024-06-11 11:06:45.405] [info]  - path length RMSE: 0.394 cm
+[2024-06-11 11:06:45.405] [info]  - 'knee_angle_r' moment arm RMSE: 1.061 cm
+[2024-06-11 11:06:45.405] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.405] [warning] The 'knee_angle_r' moment arm RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.405] [warning] 
+[2024-06-11 11:06:45.405] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.405] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.405] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.405] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.405] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.405] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.405] [info]  - 'hip_flexion_r' moment arm RMSE: 0.490 cm
+[2024-06-11 11:06:45.405] [info] 
+[2024-06-11 11:06:45.405] [info] '/forceset/semimem_r' path errors:
+[2024-06-11 11:06:45.405] [info]  - path length RMSE: 0.458 cm
+[2024-06-11 11:06:45.405] [info]  - 'knee_angle_r' moment arm RMSE: 1.390 cm
+[2024-06-11 11:06:45.405] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.405] [warning] The 'knee_angle_r' moment arm RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.405] [warning] 
+[2024-06-11 11:06:45.405] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.405] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.405] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.405] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.405] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.405] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.405] [info]  - 'hip_flexion_r' moment arm RMSE: 0.699 cm
+[2024-06-11 11:06:45.405] [info] 
+[2024-06-11 11:06:45.405] [info] '/forceset/soleus_r' path errors:
+[2024-06-11 11:06:45.405] [info]  - path length RMSE: 0.021 cm
+[2024-06-11 11:06:45.405] [info]  - 'ankle_angle_r' moment arm RMSE: 0.055 cm
+[2024-06-11 11:06:45.405] [info] 
+[2024-06-11 11:06:45.405] [info] '/forceset/tib_ant_r' path errors:
+[2024-06-11 11:06:45.405] [info]  - path length RMSE: 0.218 cm
+[2024-06-11 11:06:45.405] [info]  - 'ankle_angle_r' moment arm RMSE: 0.666 cm
+[2024-06-11 11:06:45.405] [info] 
+[2024-06-11 11:06:45.405] [info] '/forceset/vas_int_r' path errors:
+[2024-06-11 11:06:45.405] [info]  - path length RMSE: 0.304 cm
+[2024-06-11 11:06:45.405] [info]  - 'knee_angle_r' moment arm RMSE: 0.947 cm
+[2024-06-11 11:06:45.405] [info] 
+[2024-06-11 11:06:45.405] [info] Average path length RMSE = 0.699 cm
+[2024-06-11 11:06:45.405] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.405] [warning] The average path length RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.405] [warning] 
+[2024-06-11 11:06:45.405] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.405] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.405] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.405] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.405] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.405] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.405] [info] Average moment arm RMSE  = 0.956 cm
+[2024-06-11 11:06:45.405] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.405] [warning] The average moment arm RMS error is greater than 0.1 cm.
+[2024-06-11 11:06:45.405] [warning] 
+[2024-06-11 11:06:45.405] [warning] Consider increasing the number of samples per frame or the 
+[2024-06-11 11:06:45.405] [warning] polynomial order and re-fitting the model. If a re-fitting 
+[2024-06-11 11:06:45.405] [warning] is not successful, check that the original model produces 
+[2024-06-11 11:06:45.405] [warning] path lengths and moment arms that are free of 
+[2024-06-11 11:06:45.405] [warning] discontinuities or other irregularities.
+[2024-06-11 11:06:45.405] [warning] -----------------------------------------------------------
+[2024-06-11 11:06:45.405] [info] 
+[2024-06-11 11:06:45.405] [info] Step 9/9: Print the results to the output directory.
+[2024-06-11 11:06:45.405] [info] ----------------------------------------------------
+[2024-06-11 11:06:45.406] [info] Printing the FunctionBasedPaths to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_FunctionBasedPathSet.xml'...
+[2024-06-11 11:06:45.407] [info] 
+[2024-06-11 11:06:45.407] [info] Printing original coordinate values to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_coordinate_values.sto'...
+[2024-06-11 11:06:45.411] [info] Printing sampled coordinate values to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_coordinate_values_sampled.sto'...
+[2024-06-11 11:06:45.421] [info] 
+[2024-06-11 11:06:45.421] [info] Printing the path lengths to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_path_lengths.sto'...
+[2024-06-11 11:06:45.427] [info] Printing the moment arms to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_moment_arms.sto'...
+[2024-06-11 11:06:45.435] [info] 
+[2024-06-11 11:06:45.435] [info] Printing the sampled path lengths to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_path_lengths_sampled.sto'...
+[2024-06-11 11:06:45.441] [info] Printing the sampled moment arms to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_moment_arms_sampled.sto'...
+[2024-06-11 11:06:45.449] [info] 
+[2024-06-11 11:06:45.449] [info] Printing the fitted path lengths from the original coordinate values to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_path_lengths_fitted.sto'...
+[2024-06-11 11:06:45.459] [info] Printing the fitted moment arms from the original coordinate to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_moment_arms_fitted.sto'...
+[2024-06-11 11:06:45.470] [info] 
+[2024-06-11 11:06:45.470] [info] Printing the fitted path lengths from the sampled coordinate values to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_path_lengths_sampled_fitted.sto'...
+[2024-06-11 11:06:45.489] [info] Printing the fitted moment arms from the sampled coordinate values to 'c:\Users\nbianco\repos\CMBBE2024\Demo 3 - OpenSim Moco\path_fitting\squatToStand_moment_arms_sampled_fitted.sto'...
