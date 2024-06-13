@@ -1,0 +1,8 @@
+# OpenSim log files
+opensim.log
+
+# Moco demo
+Demo3_OpenSimMoco/sliding_mass/**
+Demo3_OpenSimMoco/path_fitting/**
+Demo3_OpenSimMoco/squat_to_stand/**
+Demo3_OpenSimMoco/device_optimization/**
