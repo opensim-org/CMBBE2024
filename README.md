@@ -16,7 +16,7 @@ The first portion of the workshop will demonstrate OpenCap. There is no interact
 
 The second and third portions of the workshop will demonstrate how to utilize the Python scripting interface in OpenSim to perform analyses, create visualizations, and generate muscle-driven simulations. We will use interactive Jupyter notebooks to demonstrate the OpenSim Python interface, and you may use these notebooks follow along with each software demonstration during the workshop.
 
-Please follow the instructions below to set up each Jupyter notebook using either Google Colab (recommended) or via manual installation below.
+Please follow the instructions below to set up each Jupyter notebook using either Google Colab (recommended) or via manual installation.
 
 ## Google Colab
 
