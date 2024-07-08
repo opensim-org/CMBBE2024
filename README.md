@@ -12,7 +12,7 @@ Attendees will learn:
 
 The first portion of the workshop will demonstrate OpenCap. There is no interactive segment for this software demonstration, but sample files are included in this repository:
 
-* Demo 1: Recording movement data from smartphones with OpenCap (TODO)
+* [Demo 1: Recording movement data from smartphones with OpenCap](https://app.opencap.ai/session/c601e008-4fd0-492a-b675-04667c4df1c4)
 
 The second and third portions of the workshop will demonstrate how to utilize the Python scripting interface in OpenSim to perform analyses, create visualizations, and generate muscle-driven simulations. We will use interactive Jupyter notebooks to demonstrate the OpenSim Python interface, and you may use these notebooks follow along with each software demonstration during the workshop.
 
