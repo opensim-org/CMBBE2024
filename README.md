@@ -48,5 +48,4 @@ Notes
 
 * OpenSim 4.5.1 API documentation (TODO)
 * OpenSim scripting in Python (TODO)
-* PowerPoint slides (TODO)
-* Confluence page? (TODO)
+* Confluence page (TODO)
