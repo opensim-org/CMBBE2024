@@ -1,9 +1,7 @@
 
 The OpenSim Team will host a hands-on software workshop on Wednesday July 31st at the [19th International Symposium on Computer Methods in Biomechanics and Biomedical Engineeering (CMBBE 2024)](https://www.cmbbe-symposium.com/2024/). Details about the workshop content and instructions for setting up simulation environments for the hands-on software demos can be found below.
 
-# Overview
-
-![alt text](image-20240710-172712.png)
+# OpenSim: Tools for rapid, large-scale musculoskeletal simulations
 
 Musculoskeletal simulations provide a way to gain deep insights into how movement is coordinated. New tools for rapidly developing musculoskeletal simulations are enabling more researchers to leverage simulations by reducing the barrier to entry. In this workshop, we will present how our ecosystem of OpenSim tools for rapidly creating simulations, including from smartphone videos using OpenCap, and new features we’ve added to our Python and Jupyter notebook interfaces make it easier to generate simulations. With a combination of didactic portions and hands-on examples, participants will learn about OpenSim’s tools for creating simulations, and how to import movement data, create muscle-driven simulations, and analyze the results.
 
