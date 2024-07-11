@@ -32,6 +32,8 @@ To get started, simply click the links below to open the interactive Jupyter not
 
 ## Manual installation (not recommended)
 
+The following instructions briefly describe how to set up a local Python environment in which you can run the Jupyter notebooks. Note that since the workshop materials are designed around Google Colab, certain sections of the notebooks will not work when running locally (see below). If choosing this approach, we assume that you are comfortable with Conda and Python.
+
 1. Clone this repository.
 ```
 git clone https://github.com/opensim-org/CMBBE2024.git
@@ -58,15 +60,15 @@ conda install -n myenv ipykernel --update-deps --force-reinstall
 conda install ipywidgets matplotlib scikit-learn
 ```
 
-Notes
-1. Skip any sections involving setting up `condacolab`
+Note the following limitations if running the Jupyter notebooks locally.
+
+1. Skip any sections involving installing `condacolab`.
 2. Skip any sections involving downloading resources, they will be included in the cloned repository.
-3. Sections involving the OpenSim Viewer are not guaranteed to work out-of-the-box.
-    - As an alternative, the Simbody visualizer can be enabled for certain sections.
+3. Any sections involving the OpenSim Viewer are not guaranteed to work out-of-the-box and should likely be skipped. In Demo 3, uncommenting lines similar to `study.visualize(solution)` will enable visualization with the Simbody visualizer.
 
 
 # Resources
 
-* View the OpenSim 4.5.1 API documentation. (TODO)
+* View the OpenSim 4.5.1 API documentation here. (TODO)
 * View the [Scripting with Python Confluence page](https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53085346/Scripting+in+Python), for more information about creating OpenSim scripting environments in Python.
 * View the [workshop Confluence page](https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/226394116/CMBBE+2024+OpenSim+Workshop) for additional resources, including the workshop presentation slides.
