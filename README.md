@@ -13,7 +13,7 @@ Attendees will learn:
 
 # Setup instructions
 
-The first portion of the workshop will demonstrate OpenCap. There is no interactive segment for this software demonstration, but sample files are included in this repository:
+The first portion of the workshop will demonstrate OpenCap. There is no hands-on coding segment for this software demonstration, but use the following link to open an interactive OpenCap session with pre-recorded data:
 
 * [Demo 1: Recording movement data from smartphones with OpenCap](https://app.opencap.ai/session/c601e008-4fd0-492a-b675-04667c4df1c4)
 
@@ -27,7 +27,7 @@ Google Colab is a free service for hosting Jupyter notebooks in the cloud along 
 
 To get started, simply click the links below to open the interactive Jupyter notebook for each software demonstration.
 
-* [Demo 2: Analyzing and visualizing movement data with OpenSim](https://githubtocolab.com/opensim-org/CMBBE2024/blob/main/Demo2_OpenSimIKPipeline/Demo%202%20-%20Preview%2C%20Inverse%20Kinematics%20and%20Analysis.ipynb)
+* [Demo 2: Analyzing movement data with OpenSim scripting in Python](https://githubtocolab.com/opensim-org/CMBBE2024/blob/main/Demo2_OpenSimIKPipeline/Demo%202%20-%20Preview%2C%20Inverse%20Kinematics%20and%20Analysis.ipynb)
 * [Demo 3: Creating muscle-driven simulations with OpenSim Moco](https://githubtocolab.com/opensim-org/CMBBE2024/blob/main/Demo3_OpenSimMoco/Demo%203%20-%20Muscle-driven%20Simulations%20with%20OpenSim%20Moco.ipynb)
     * Trying running Section 3.2 on your own to install most of the software prerequisites for this demo.
 
