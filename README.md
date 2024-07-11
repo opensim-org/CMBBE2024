@@ -60,7 +60,9 @@ conda install -n myenv ipykernel --update-deps --force-reinstall
 conda install ipywidgets matplotlib scikit-learn
 ```
 
-Note the following limitations if running the Jupyter notebooks locally.
+6. Open the notebook in an IDE that supports Jupyter notebooks (e.g., Visual Studio Code). Choose the enviroment that you created above (e.g., `myenv`) as the notebook kernal.
+
+You should now be able to run the notebooks locally, with the following limitations:
 
 1. Skip any sections involving installing `condacolab`.
 2. Skip any sections involving downloading resources, they will be included in the cloned repository.
