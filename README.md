@@ -29,16 +29,34 @@ To get started, simply click the links below to open the interactive Jupyter not
 
 * [Demo 2: Analyzing movement data with OpenSim scripting in Python](https://githubtocolab.com/opensim-org/CMBBE2024/blob/main/Demo2_OpenSimIKPipeline/Demo%202%20-%20Analyzing%20movement%20data%20with%20OpenSim%20scripting%20in%20Python.ipynb)
 * [Demo 3: Creating muscle-driven simulations with OpenSim Moco](https://githubtocolab.com/opensim-org/CMBBE2024/blob/main/Demo3_OpenSimMoco/Demo%203%20-%20Creating%20muscle-driven%20Simulations%20with%20OpenSim%20Moco.ipynb)
-    * Trying running Section 3.2 on your own to install most of the software prerequisites for this demo.
-
 
 ## Manual installation (not recommended)
 
-1. Clone this repository
-2. Create a new conda environment
-3. Install OpenSim: `conda install opensim_admin::opensim-moco`
-4. Install the following packages (TODO)
-    - ipywidgets
+1. Clone this repository.
+```
+git clone https://github.com/opensim-org/CMBBE2024.git
+```
+
+2. Create a new Conda environment.
+```
+conda create -n myenv python=3.11 numpy
+conda activate myenv
+```
+
+3. Install OpenSim.
+```
+conda install opensim_admin::opensim-moco
+```
+
+4. Install the `ipykernal` package.
+```
+conda install -n myenv ipykernel --update-deps --force-reinstall
+```
+
+5. Install the following additional packages.
+```
+conda install ipywidgets matplotlib scikit-learn
+```
 
 Notes
 1. Skip any sections involving setting up `condacolab`
@@ -49,6 +67,6 @@ Notes
 
 # Resources
 
-* OpenSim 4.5.1 API documentation (TODO)
-* OpenSim scripting in Python (TODO)
+* View the OpenSim 4.5.1 API documentation. (TODO)
+* View the [Scripting with Python Confluence page](https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53085346/Scripting+in+Python), for more information about creating OpenSim scripting environments in Python.
 * View the [workshop Confluence page](https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/226394116/CMBBE+2024+OpenSim+Workshop) for additional resources, including the workshop presentation slides.
