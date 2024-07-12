@@ -41,18 +41,18 @@ git clone https://github.com/opensim-org/CMBBE2024.git
 
 2. Create a new Conda environment.
 ```
-conda create -n myenv python=3.11 numpy
-conda activate myenv
+conda create -n cmbbe2024 python=3.10 numpy=1.25
+conda activate cmbbe2024
 ```
 
 3. Install OpenSim.
 ```
-conda install opensim_admin::opensim-moco
+conda install opensim-org::opensim
 ```
 
 4. Install the `ipykernal` package.
 ```
-conda install -n myenv ipykernel --update-deps --force-reinstall
+conda install -n cmbbe2024 ipykernel --update-deps --force-reinstall
 ```
 
 5. Install the following additional packages.
@@ -60,13 +60,14 @@ conda install -n myenv ipykernel --update-deps --force-reinstall
 conda install ipywidgets matplotlib scikit-learn
 ```
 
-6. Open the notebook in an IDE that supports Jupyter notebooks (e.g., Visual Studio Code). Choose the enviroment that you created above (e.g., `myenv`) as the notebook kernal.
+6. Open the notebook in an IDE that supports Jupyter notebooks (e.g., Visual Studio Code). Choose the enviroment that you created above (e.g., `cmbbe2024`) as the notebook kernal.
 
 You should now be able to run the notebooks locally, with the following limitations:
 
 1. Skip any sections involving installing `condacolab`.
-2. Skip any sections involving downloading resources, they will be included in the cloned repository.
-3. Any sections involving the OpenSim Viewer are not guaranteed to work out-of-the-box and should likely be skipped. In Demo 3, uncommenting lines similar to `study.visualize(solution)` will enable visualization with the Simbody visualizer.
+2. Skip any sections involving installing the OpenSim Conda package, since we just did that above.
+3. Skip any sections involving downloading resources, they will be included in the cloned repository.
+4. Any sections involving the OpenSim Viewer are not guaranteed to work out-of-the-box and should likely be skipped. In Demo 3, uncommenting lines similar to `study.visualize(solution)` will enable visualization with the Simbody visualizer.
 
 
 # Resources
