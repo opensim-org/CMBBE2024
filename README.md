@@ -41,7 +41,7 @@ git clone https://github.com/opensim-org/CMBBE2024.git
 
 2. Create a new Conda environment.
 ```
-conda create -n cmbbe2024 python=3.10 numpy=1.25
+conda create -n cmbbe2024 python=3.10
 conda activate cmbbe2024
 ```
 
@@ -52,7 +52,7 @@ conda install opensim-org::opensim
 
 4. Install the `ipykernal` package.
 ```
-conda install -n cmbbe2024 ipykernel --update-deps --force-reinstall
+conda install anaconda::ipykernal
 ```
 
 5. Install the following additional packages.
