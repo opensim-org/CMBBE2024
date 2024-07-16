@@ -72,6 +72,6 @@ You should now be able to run the notebooks locally, with the following limitati
 
 # Resources
 
-* View the OpenSim 4.5.1 API documentation here. (TODO)
+* View the [OpenSim 4.5.1 API documentation here](https://simtk.org/api_docs/opensim/api_docs451/).
 * View the [Scripting with Python Confluence page](https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/53085346/Scripting+in+Python), for more information about creating OpenSim scripting environments in Python.
 * View the [workshop Confluence page](https://opensimconfluence.atlassian.net/wiki/spaces/OpenSim/pages/226394116/CMBBE+2024+OpenSim+Workshop) for additional resources, including the workshop presentation slides.
