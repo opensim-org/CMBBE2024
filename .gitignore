@@ -4,7 +4,12 @@ opensim.log
 # Viewer backend
 **/opensim-viewer-backend/
 
-# Moco demo
+# Demo 2
+Demo2_OpenSimIKPipeline/_ik_marker_errors.sto
+Demo2_OpenSimIKPipeline/inverse_kinematics.sto
+Demo2_OpenSimIKPipeline/*BodyKinematics*.sto
+
+# Demo 3
 Demo3_OpenSimMoco/path_fitting/**
 Demo3_OpenSimMoco/squat_to_stand/**
 Demo3_OpenSimMoco/device_optimization/**
