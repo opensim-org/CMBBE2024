@@ -1,6 +1,9 @@
 # OpenSim log files
 opensim.log
 
+# Viewer backend
+**/opensim-viewer-backend/
+
 # Moco demo
 Demo3_OpenSimMoco/path_fitting/**
 Demo3_OpenSimMoco/squat_to_stand/**
