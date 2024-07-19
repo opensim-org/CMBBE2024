@@ -50,9 +50,9 @@ conda activate cmbbe2024
 conda install opensim-org::opensim
 ```
 
-4. Install the `ipykernal` package.
+4. Install the `ipykernel` package.
 ```
-conda install anaconda::ipykernal
+conda install anaconda::ipykernel
 ```
 
 5. Install the following additional packages.
