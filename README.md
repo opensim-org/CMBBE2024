@@ -68,6 +68,7 @@ You should now be able to run the notebooks locally, with the following limitati
 2. Skip any sections involving installing the OpenSim Conda package, since we just did that above.
 3. Skip any sections involving downloading resources, they will be included in the cloned repository.
 4. Any sections involving the OpenSim Viewer are not guaranteed to work out-of-the-box and should likely be skipped. In Demo 3, uncommenting lines similar to `study.visualize(solution)` will enable visualization with the Simbody visualizer.
+5. The images in the Demo 3 notebook may not appear locally since they are linked from the web (so they appear in GitHub). However, they are included in the `/images` directory for your reference.
 
 
 # Resources
