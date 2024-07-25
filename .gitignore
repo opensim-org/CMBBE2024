@@ -6,6 +6,7 @@ opensim.log
 
 # Demo 2
 Demo2_OpenSimIKPipeline/_ik_marker_errors.sto
+Demo2_OpenSimIKPipeline/_ik_model_marker_locations.sto
 Demo2_OpenSimIKPipeline/inverse_kinematics.sto
 Demo2_OpenSimIKPipeline/*BodyKinematics*.sto
 
