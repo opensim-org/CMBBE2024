@@ -13,7 +13,7 @@ Attendees will learn:
 
 # Setup instructions
 
-The first portion of the workshop will demonstrate OpenCap. There is no hands-on coding segment for this software demonstration, but use the following link to open an interactive OpenCap session with pre-recorded data:
+The first portion of the workshop will demonstrate [OpenCap](https://www.opencap.ai/). There is no hands-on coding segment for this software demonstration, but use the following link to open an interactive OpenCap session with pre-recorded data:
 
 * [Demo 1: Recording movement data from smartphones with OpenCap](https://app.opencap.ai/session/c601e008-4fd0-492a-b675-04667c4df1c4)
 
