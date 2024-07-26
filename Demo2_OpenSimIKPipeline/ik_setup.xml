@@ -4,7 +4,7 @@
 		<!--Name/path to the xml .osim file.-->
 		<model_file>LaiUhlrich2022_scaled.osim</model_file>
 		<!--The time range for the study.-->
-		<time_range>4.7 6.5</time_range>
+		<time_range>0 1.8</time_range>
 		<!--Name of the resulting inverse kinematics motion (.mot) file.-->
 		<output_motion_file>inverse_kinematics.sto</output_motion_file>
 		<!--Markers and coordinates to be considered (tasks) and their weightings. The sum of weighted-squared task errors composes the cost function.-->
