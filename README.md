@@ -52,7 +52,7 @@ conda install opensim-org::opensim
 
 4. Install the `ipykernel` package.
 ```
-conda install anaconda::ipykernel
+conda install ipykernel
 ```
 
 5. Install the following additional packages.
